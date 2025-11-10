@@ -7,7 +7,7 @@ public class App {
                 numero = Long.parseLong(System.console().readLine("Por favor, introduzca un número entero positivo: "));
                 correcto = (numero >= 10)?true:false;
                 if (!correcto)
-                    System.out.println("Introduzca un número entero positivo de mínimos dos digitos o mas.");
+                    System.out.println("Introduzca un número entero positivo.");
             } catch (NumberFormatException ex){
                 System.out.println("Introduzca un número valido.");
             } catch (Exception e){
